@@ -2,7 +2,7 @@ let tabuada = 34;
 let limite = 15;
 
 if (tabuada <= 0) {
-    console.log("não podemos multiplicar por numeros negativos ou igual a 0")
+    console.log("nao podemos fazer a mutiplicação por numeros menores ou iguais a 0 ")
 } else if (tabuada % 1 !== 0 || limite % 1 !== 0) {
     console.log("não multiplicamos numero com virgula")
 } else {
